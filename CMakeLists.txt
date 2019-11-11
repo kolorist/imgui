@@ -9,6 +9,7 @@ include_directories ("${PROJECT_SOURCE_DIR}/src")
 set (file_list
 	"${PROJECT_SOURCE_DIR}/src/imgui.cpp"
 	"${PROJECT_SOURCE_DIR}/src/imgui_demo.cpp"
+	"${PROJECT_SOURCE_DIR}/src/imgui_widgets.cpp"
 	"${PROJECT_SOURCE_DIR}/src/imgui_draw.cpp")
 
 add_definitions(
